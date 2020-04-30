@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
+options: "27a8a3c30a8620547f8c83d56f1eb689"
+build_time: [1588222787, 843496000]
+inputs:
+  "/Users/congle/Desktop/DEVELOPMENTS/ENHANCE NOTES/OBJECTIVE-C/Category-to-Swift/Category-to-Swift/HomeViewController.swift": [1588222785, 270777778]
+  "/Users/congle/Desktop/DEVELOPMENTS/ENHANCE NOTES/OBJECTIVE-C/Category-to-Swift/Category-to-Swift/AppDelegate.swift": [1588190162, 810488595]
