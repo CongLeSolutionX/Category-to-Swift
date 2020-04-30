@@ -1,0 +1,2 @@
+
+This is a hola from a text file, loaded by an ObjC method, and presented my Mr. Swift!

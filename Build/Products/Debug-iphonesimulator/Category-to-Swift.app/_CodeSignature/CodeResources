@@ -16,6 +16,10 @@
 		<data>
 		/gHmylqV6zwisn6pSqDa5qNNcao=
 		</data>
+		<key>Hello.txt</key>
+		<data>
+		kaR02c483yAFr0u+6z7kJDlCcQM=
+		</data>
 		<key>Info.plist</key>
 		<data>
 		7yLEG2uz7nXoc0f4C5a+P1I3ED4=
@@ -46,6 +50,13 @@
 			<key>hash2</key>
 			<data>
 			XIJrLliVJizb2471CK3dZ0BNadrlms47TDClKJUtshM=
+			</data>
+		</dict>
+		<key>Hello.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5Uz3ee8RxutrOPdPCjzuhXZxfCH2tr6lDZB1Mm2UE70=
 			</data>
 		</dict>
 	</dict>

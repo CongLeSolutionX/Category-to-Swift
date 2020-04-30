@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4C11C2DF245A8E2900BD8E00 /* PersonFromObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C11C2DE245A8E2900BD8E00 /* PersonFromObjC.m */; };
+		4C11C2E1245A997700BD8E00 /* Hello.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4C11C2E0245A997700BD8E00 /* Hello.txt */; };
 		4CCEA5CF245A0A1C00CB7396 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCEA5CE245A0A1C00CB7396 /* AppDelegate.swift */; };
 		4CCEA5D3245A0A1C00CB7396 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCEA5D2245A0A1C00CB7396 /* HomeViewController.swift */; };
 		4CCEA5D8245A0A1D00CB7396 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CCEA5D7245A0A1D00CB7396 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* Begin PBXFileReference section */
 		4C11C2DD245A827D00BD8E00 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4C11C2DE245A8E2900BD8E00 /* PersonFromObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonFromObjC.m; sourceTree = "<group>"; };
+		4C11C2E0245A997700BD8E00 /* Hello.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Hello.txt; sourceTree = "<group>"; };
 		4CCEA5CB245A0A1C00CB7396 /* Category-to-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Category-to-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CCEA5CE245A0A1C00CB7396 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CCEA5D2245A0A1C00CB7396 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				4CCEA5E6245A101300CB7396 /* PersonFromObjC.h */,
 				4C11C2DE245A8E2900BD8E00 /* PersonFromObjC.m */,
 				4CCEA5E2245A0AB300CB7396 /* Category-to-Swift-Bridging-Header.h */,
+				4C11C2E0245A997700BD8E00 /* Hello.txt */,
 			);
 			path = "Category-to-Swift";
 			sourceTree = "<group>";
@@ -134,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C11C2E1245A997700BD8E00 /* Hello.txt in Resources */,
 				4CCEA5DB245A0A1D00CB7396 /* LaunchScreen.storyboard in Resources */,
 				4CCEA5D8245A0A1D00CB7396 /* Assets.xcassets in Resources */,
 			);

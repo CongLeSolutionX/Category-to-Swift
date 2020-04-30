@@ -22,7 +22,8 @@ class HomeViewController: UIViewController {
         setupSwiftLabel()
         setupConstraintsForSwiftLabel()
         // invasion from the deep world
-        helloFromDeepWorld() 
+        holaFromDeepWorld()
+        accessObjCClassInstanceProperties()
         
     }
     func setupSwiftLabel() {
@@ -35,13 +36,24 @@ class HomeViewController: UIViewController {
         helloFromSwift.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20).isActive = true
         helloFromSwift.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20).isActive = true
     }
-    func helloFromDeepWorld() {
-        person.personFromObjCSayHola()
-        person.sayHelloFromCategory()
+    func holaFromDeepWorld() {
+        person?.personFromObjCSayHola()
+        person?.sayHelloFromCategory()
+        person?.displayMacroConstant()
+        person?.displayNSInteger()
+        person?.displayNSNumber()
+        person?.displayNSString()
+        person?.displayNSArray()
+        
     }
     
-    func setupObjCLabel() {
-        print(person.firstName ?? "No first name")
+    func accessObjCClassInstanceProperties() {
+        guard let firstName = person?.firstName else { return }
+        guard let lastName = person?.lastName else { return }
+        guard let occupation = person?._occupation else {return }
+        print("Person from ObjC has first name is: \(firstName)")
+        print("Person from ObjC has last name is: \(lastName)")
+        print("Person from ObjC has occupation is: \(occupation)")
     }
     func setupConstraintForObjCLabel() {
         helloFromCategory.translatesAutoresizingMaskIntoConstraints = false
